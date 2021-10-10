@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/student_navigation"
+    app:startDestination="@id/studentHomeFragment">
+
+    <fragment
+        android:id="@+id/studentHomeFragment"
+        android:name="com.tdsoft.learnodo.ui.student.home.StudentHomeFragment"
+        android:label="Home" />
+    <fragment
+        android:id="@+id/teachersListFragment"
+        android:name="com.tdsoft.learnodo.ui.student.teachers.TeachersListFragment"
+        android:label="Teachers" />
+    <fragment
+        android:id="@+id/studentExamsFragment"
+        android:name="com.tdsoft.learnodo.ui.student.exmas.StudentExamsFragment"
+        android:label="Exams" />
+    <fragment
+        android:id="@+id/studentProfileFragment"
+        android:name="com.tdsoft.learnodo.ui.student.profile.StudentProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_student_profile" />
+</navigation>

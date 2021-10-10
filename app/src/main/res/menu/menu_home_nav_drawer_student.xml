@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/studentHomeFragment"
+        android:title="Home" />
+    <item
+        android:id="@+id/teachersListFragment"
+        android:title="Teachers" />
+    <item
+        android:id="@+id/studentExamsFragment"
+        android:title="Exams" />
+
+    <item
+        android:id="@+id/studentProfileFragment"
+        android:title="Profile" />
+</menu>

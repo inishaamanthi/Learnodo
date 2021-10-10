@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "821950378197",
+    "firebase_url": "https://learnodo-ddce2-default-rtdb.firebaseio.com",
+    "project_id": "learnodo-ddce2",
+    "storage_bucket": "learnodo-ddce2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821950378197:android:d15bb6c15222d54e6b325c",
+        "android_client_info": {
+          "package_name": "com.tdsoft.learnodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821950378197-8na74586cd5af6r6mi5vftolld4mkf3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5mhXMQAh4Nr-hlzPYnwGYmD6QiE62eVU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821950378197-8na74586cd5af6r6mi5vftolld4mkf3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

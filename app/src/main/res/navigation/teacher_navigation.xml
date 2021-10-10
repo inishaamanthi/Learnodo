@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/teacher_navigation"
+    app:startDestination="@id/teacherHomeFragment">
+
+    <fragment
+        android:id="@+id/teacherHomeFragment"
+        android:name="com.tdsoft.learnodo.ui.teacher.home.TeacherHomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_teacher_home" />
+    <fragment
+        android:id="@+id/teacherMaterialsFragment"
+        android:name="com.tdsoft.learnodo.ui.teacher.materials.TeacherMaterialsFragment"
+        android:label="Materials"
+        tools:layout="@layout/fragment_teacher_materials" />
+
+    <fragment
+        android:id="@+id/teacherExamsFragment"
+        android:name="com.tdsoft.learnodo.ui.teacher.exams.TeacherExamsFragment"
+        android:label="Exams" >
+        <action
+            android:id="@+id/action_teacherExamsFragment_to_viewExamFragment"
+            app:destination="@id/viewExamFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/viewExamFragment"
+        android:name="com.tdsoft.learnodo.ui.teacher.viewexam.ViewExamFragment"
+        android:label="Results" >
+        <action
+            android:id="@+id/action_viewExamFragment_to_teacherExamsFragment"
+            app:destination="@id/teacherExamsFragment" />
+        <argument
+            android:name="selectedExam"
+            app:argType="com.tdsoft.learnodo.data.models.Exam" />
+    </fragment>
+</navigation>
